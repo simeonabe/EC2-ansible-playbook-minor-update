@@ -24,7 +24,7 @@
       clone: yes
       force: yes
       dest: /home/ubuntu/weatherapp
-      version: master
+      version: main
     become_user: ubuntu
   - name: install docker pip
     pip:
