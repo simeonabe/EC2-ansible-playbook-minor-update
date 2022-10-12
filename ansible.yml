@@ -42,7 +42,7 @@
         - frontend
         - backend
         - weatherapp
-  - name: Curl website to check if it working
+  - name: Curl website to check if it works
     uri:
       url: http://localhost:8000/
       method: GET
